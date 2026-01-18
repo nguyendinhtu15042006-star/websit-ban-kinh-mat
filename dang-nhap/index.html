@@ -3,46 +3,203 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EYESHOP - Đăng Nhập</title>
-    <link rel="stylesheet" href="style.css"> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>Eye Shop - Kính mắt chính hãng</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
-        <div class="logo">EYESHOP</div>
-        <nav class="nav-menu">
-            <a href="../TrangChu/index.html">TRANG CHỦ</a> 
-            <a href="../ve-chung-toi/index.html">WEBSITE</a> 
-             <a href="../san-pham/index.html">SẢN PHẨM</a>
-        </nav>
-        <div class="user-actions">
-            <a href="../dang-nhap/index.html" class="icon active-icon">👤</a> 
-            <a href="../thanh-toan/index.html" class="icon">🛒</a>
-        </div>
-    </header>
+<header class="header">
+    <div class="logo">EYESHOP</div>
+    <nav class="nav-menu">
+    <a href="../TrangChu/index.html" class="active">TRANG CHỦ</a> 
+    
+    <a href="../ve-chung-toi/index.html">WEBSITE</a> 
+    
+    <a href="../san-pham/index.html">SẢN PHẨM</a> 
+</nav>
+   
+    
+    <div class="user-actions">
+        <a href="../dang-nhap/index.html" class="icon">👤</a> 
+        <a href="../thanh-toan/index.html" class="icon">🛒</a>
+    </div>
+</header>
 
-    <section class="login-section container">
-        <div class="login-branding">
-            <h1>EYESHOP</h1>
-            <p>Cửa hàng kính mắt trực tuyến chất lượng</p>
+ <section class="hero-slider">
+    <div class="slider-wrapper">
+        
+        <div class="slide-item" style="background-image: url('../img/slide1\ \(2\).png');">
+            <div class="slide-content">
+                <h2>Chào mừng bạn đến với EYESHOP</h2>
+                <p>Bảo vệ mắt khỏi ánh sáng xanh và tia UV, giảm mỏi mắt <br> khi dùng thiết bị</p>
+                <a href="#" class="btn-slide">Khám phá ngay</a>
+            </div>
         </div>
 
-        <div class="login-form-container">
-            <h2>Đăng nhập</h2>
-            <form id="login-form">
-                <div class="form-group"><input type="text" placeholder="Email hoặc Tên đăng nhập" required></div>
-                <div class="form-group"><input type="password" placeholder="Mật khẩu" required></div>
-                <a href="#" class="forgot-password">Bạn quên mật khẩu?</a>
-                <button type="submit" class="btn-login">Đăng nhập</button>
-            </form>
-            <div class="divider"><span>Hoặc</span></div>
-            <button class="btn-google">
-                <span class="google-icon">G</span> Đăng nhập bằng Google
-            </button>
-            <p class="register-link">
-                Bạn chưa có tài khoản? <a href="#">Đăng ký ngay!</a>
+        <div class="slide-item" style="background-image: url('../img/slide2.jpg');">
+            <div class="slide-content">
+                <h2>Ưu đãi đặc biệt tháng này</h2>
+                <p>Giảm đến 30% cho tất cả mẫu kính. <br> Miễn phí đo mắt & tư vấn chọn tròng</p>
+                <a href="#" class="btn-slide">Nhận ưu đãi</a>
+            </div>
+        </div>
+
+        <div class="slide-item" style="background-image: url('../img/slide4.png');">
+            <div class="slide-content">
+                <h2>Tầm nhìn rõ nét - Phong cách vượt trội</h2>
+                <p>Mắt kính chống UV, bảo vệ mắt tối ưu. <br> Cam kết chính hãng 100%</p>
+                <a href="#" class="btn-slide">Mua ngay</a>
+            </div>
+        </div>
+
+    </div>
+    
+</section>
+
+    <section class="intro-eyezen container">
+        <div class="intro-text">
+            <h2>Tròng kính Eyezen nào phù hợp với tôi?</h2>
+            <p class="highlight">Không chỉ là chức năng điều chỉnh đơn thuần</p>
+            <p class="description">
+                Tròng kính Eyezen™ Start là một kính đơn tròng với cấu trúc quang học đặc biệt 
+                và khả năng bảo vệ mắt khỏi ánh sáng xanh có hại, với mức độ hỗ trợ phù hợp.
             </p>
+            <a href="#" class="btn-link">Xem sản phẩm Eyezen™ Start &rarr;</a>
         </div>
+        <div class="intro-image">
+            <img src="../img/anhnen.jpg" alt="anhmoi">
+        </div>
+    </section>
+
+    <section class="store-finder">
+        <div class="store-bg">
+            <img src="../img/timkiem.png" alt="phongnen">
+        </div>
+        <div class="store-content">
+            <h2>Tìm một cửa hàng kính mắt</h2>
+            <p>Tìm cửa hàng kính mắt gần nhất</p>
+            <div class="search-box">
+                <input type="text" placeholder="Nhập địa chỉ, tên thành phố...">
+                <button>🔍</button>
+            </div>
+        </div>
+    </section>
+<section class="products ">
+    <div class="container">
+    <h2 class="section-title">CÁC SẢN PHẨM NỔI BẬT</h2>
+    
+    <div class="product-filters">
+        <a href="../san-pham/index.html"> 
+            <button class="active">Tất cả</button>
+        </a>
+        
+        <a href="sanpham.html#thoi-trang">
+            <button>Kính mắt thời trang</button>
+        </a>
+        
+        <a href="sanpham.html#kinh-ram">
+            <button>Kính râm</button>
+        </a>
+        
+        <a href="sanpham.html#trong-kinh">
+            <button>Tròng kính</button>
+        </a>
+    </div>
+
+    <div class="product-grid">
+        
+        <a href="../gthieusp/index.html" class="product-card-link">
+            <div class="product-card">
+                <div class="card-img">
+                    <img src="../img/sanpham1.jpg" alt="Kính Gọng Tròn">
+                </div>
+                <div class="card-info">
+                    <h3>Kính Gọng Tròn</h3>
+                    <p class="price">Giá bán: 550.000đ</p>
+                    <div class="colors">
+                        <span style="background: black;"></span>
+                        <span style="background: silver;"></span>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="../thanh-toan/index.html" class="product-card-link">
+            <div class="product-card">
+                <div class="card-img">
+                    <img src="../img/kỉnham (1).png" alt="Kính Râm Cổ Điển">
+                </div>
+                <div class="card-info">
+                    <h3>Kính Râm Cổ điển</h3>
+                    <p class="price">Giá bán: 310.000đ</p>
+                </div>
+            </div>
+        </a>
+
+        <a href="../thanh-toan/index.html" class="product-card-link">
+            <div class="product-card">
+                <div class="card-img">
+                    <img src="../img/sanpham3.png" alt="Tròng Kính Vis Care">
+                </div>
+                <div class="card-info">
+                    <h3>Tròng Kính Hai Tròng Đổi Màu Vis Care BFFT Grey HC</h3>
+                    <p class="price">Giá bán: 550.000đ</p>
+                </div>
+            </div>
+        </a>
+    </div>
+</section>
+
+    <section class="eyezen-features">
+        <div class="container">
+        <div class="feature-header">
+            <button class="btn-primary">KHÁM PHÁ NGAY</button>
+            <h2>KHÁM PHÁ CÁC DÒNG SẢN PHẨM TRÒNG KÍNH Eyezen</h2>
+        </div>
+        
+        <div class="features-grid">
+            <div class="feature-item">
+                <div class="f-img"><img src="../img/sp6 (1).png" alt=""></div>
+                <p>Eyezen Boost Người bạn đồng hành tốt nhất của Essilor giúp mắt nhìn rõ</p>
+            </div>
+            <div class="feature-item">
+                <div class="f-img"><img src="../img/sp6 (2).png" alt=""></div>
+                <p>Eyezen Start Kính đơn tròng thế hệ mới</p>
+            </div>
+            <div class="feature-item">
+                <div class="f-img"><img src="../img/sp6 (3).png" alt=""></div>
+                <p>Eyezen Boost mỏng nhẹ, phù hợp với mọi lứa tuổi</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="benefits-triangular">
+    <div class="container">
+        <div class="triangle-wrapper">
+            <div class="benefit-item top-item">
+                <div class="b-icon">🛡️</div>
+                <h4>Chính hãng 100%</h4>
+                <p>Đền tiền nếu phát hiện hàng giả, cam kết nguồn gốc rõ ràng.</p>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="b-icon">🛠️</div>
+                <h4>Bảo trì trọn đời</h4>
+                <p>Hỗ trợ nắn gọng, thay ốc và vệ sinh kính miễn phí trọn đời.</p>
+            </div>
+            
+            <div class="benefit-item">
+                <div class="b-icon">🚚</div>
+                <h4>Giao hàng nhanh</h4>
+                <p>Miễn phí vận chuyển cho đơn hàng từ 1.000.000đ toàn quốc.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section class="disclaimer">
+        <h3>Miễn trừ trách nhiệm</h3>
+        <p>Sản phẩm kính mắt này chỉ có chức năng hỗ trợ thị lực thông thường và bảo vệ mắt theo mô tả của nhà sản xuất. Sản phẩm không thay thế cho chẩn đoán, điều trị hay tư vấn y tế chuyên môn...</p>
     </section>
 
     <footer class="footer">
@@ -68,21 +225,6 @@
             </div>
         </div>
     </footer>
-   <script>
-        
-        document.getElementById('login-form').addEventListener('submit', function(event) {
-            
-            
-            event.preventDefault(); 
-            
-            
-            alert("Đăng nhập thành công!"); 
-            
-            
-            window.location.href = "../Trangchu/index.html"; 
-        });
-    </script>
-</body>
-</html>
+
 </body>
 </html>
