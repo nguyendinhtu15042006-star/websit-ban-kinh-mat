@@ -1,6 +1,4 @@
-/* =========================================
-   1. CÀI ĐẶT CHUNG (GLOBAL STYLES)
-   ========================================= */
+
 * {
     margin: 0;
     padding: 0;
@@ -74,9 +72,7 @@ img {
     cursor: pointer;
 }
 
-/* =========================================
-   3. HERO SLIDER (BANNER)
-   ========================================= */
+
 .hero-slider {
     position: relative;
     width: 100%;
@@ -161,9 +157,7 @@ img {
     100% { margin-left: 0; }
 }
 
-/* =========================================
-   4. INTRO EYEZEN (GIỚI THIỆU)
-   ========================================= */
+
 .intro-eyezen {
     display: flex;
     align-items: center;
@@ -204,9 +198,7 @@ img {
     border-bottom: 2px solid #253685;
 }
 
-/* =========================================
-   5. STORE FINDER (TÌM CỬA HÀNG)
-   ========================================= */
+
 .store-finder {
     position: relative;
     height: 400px;
@@ -260,9 +252,7 @@ img {
     padding-right: 15px;
 }
 
-/* =========================================
-   6. PRODUCTS (SẢN PHẨM NỔI BẬT)
-   ========================================= */
+
 .products {
     background-color: #dddddd; 
     padding: 60px 20px;
@@ -341,9 +331,6 @@ img {
     border: 1px solid #ccc;
 }
 
-/* =========================================
-   7. EYEZEN FEATURES (DÒNG SẢN PHẨM)
-   ========================================= */
 .eyezen-features {
     background-color: #dddddd; 
     padding: 50px 20px;
@@ -388,9 +375,7 @@ img {
     max-height: 100%; 
 }
 
-/* =========================================
-   8. BENEFITS (ƯU ĐIỂM)
-   ========================================= */
+
 .benefits-triangular {
     background-color: #dddddd; 
     padding: 80px 0;
@@ -438,9 +423,7 @@ img {
     font-size: 1.2rem;
 }
 
-/* =========================================
-   9. DISCLAIMER & FOOTER
-   ========================================= */
+
 .disclaimer {
     background-color: #ddd;
     padding: 30px 20px;
@@ -474,11 +457,9 @@ img {
     margin-right: 10px;
 }
 
-/* =========================================
-   10. RESPONSIVE (MEDIA QUERIES)
-   ========================================= */
 
-/* Tablet & Mobile chung */
+
+
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -487,7 +468,7 @@ img {
     }
     
     .nav-menu {
-        display: none; /* Thường sẽ dùng menu burger ở đây */
+        display: none; 
     }
 
     .slide-content h2 { font-size: 1.8rem; }
@@ -513,7 +494,7 @@ img {
     }
 }
 
-/* Mobile nhỏ */
+
 @media (max-width: 480px) {
     .logo {
         font-size: 20px;
