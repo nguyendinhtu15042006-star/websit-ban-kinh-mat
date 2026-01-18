@@ -1,0 +1,240 @@
+
+:root {
+    --primary-color: #253685; 
+    --secondary-color: #333; 
+    --accent-color: #fff; 
+    --background-color: #DDDDDD; 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-color);
+    line-height: 1.6;
+    overflow-x: hidden;
+    background-color: var(--background-color); 
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 4px; 
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; 
+    background-color: #f5f5f5;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: var(--primary-color);
+    flex-shrink: 0; 
+}
+
+.nav-menu {
+    flex-grow: 1;
+    margin: 0 20px; 
+    text-align: center;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-weight: bold;
+    margin: 0 15px; 
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.nav-menu a:hover, .nav-menu a.active {
+    color: var(--primary-color);
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user-actions .icon {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.product-intro {
+    padding: 60px 0;
+}
+
+.intro-content {
+    display: flex;
+    gap: 40px; 
+    align-items: center; 
+    margin-top: 30px;
+}
+
+.image-placeholder {
+    flex: 0 0 50%; 
+    background-color: #fff; 
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.text-content {
+    flex: 0 0 50%;
+}
+
+.text-content h3 {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.product-description {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.text-content ul {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.text-content ul li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pricing-area {
+    background: rgba(255,255,255,0.5);
+    padding: 15px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.selling-price {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+
+.other-products {
+    background-color: #E5E5E5; 
+    padding: 60px 0;
+}
+
+.feature-grid {
+    display: flex;
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.feature-item {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.feature-item:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.feature-item img {
+    margin-bottom: 15px;
+    height: 180px;
+    object-fit: contain; 
+}
+
+
+.features {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.primary-btn:hover {
+    background-color: #1a2763;
+    box-shadow: 0 4px 12px rgba(37, 54, 133, 0.3);
+}
+
+
+.footer {
+    background-color: #ccc;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-col h4 {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.footer-col a {
+    display: block;
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 992px) {
+    .intro-content {
+        flex-direction: column;
+    }
+    .image-placeholder, .text-content {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    .feature-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    .feature-item {
+        width: 100%;
+        max-width: 400px;
+    }
+}

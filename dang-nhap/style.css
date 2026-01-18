@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #253685;
+    flex-shrink: 0; 
+}
+
+.nav-menu {
+    flex-grow: 1; 
+    flex-shrink: 1; 
+    text-align: center;
+    margin: 0 20px; 
+}
+
+.nav-menu a {
+    color: #333;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+.nav-menu a:hover, .nav-menu a.active {
+    color: #253685;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-shrink: 0; 
+}
+
+.user-actions .icon {
+    font-size: 20px;
+    color: #253685;
+    cursor: pointer;
+}
+.login-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 0;
+    min-height: calc(100vh - 120px); 
+}
+
+.login-branding h1 {
+    font-size: 56px;
+    font-weight: 900;
+    color: #253685;
+}
+
+.login-form-container {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    border-top: 5px solid #253685;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #253685;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.divider span {
+    background: #fff;
+    padding: 0 10px;
+}
+
+.btn-google {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.disclaimer {
+    background-color: #ddd;
+    padding: 30px 20px;
+    text-align: center;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.footer {
+    background-color: #ccc;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-col h4 {
+    margin-bottom: 15px;
+    color: #253685;
+}
+
+.footer-col a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 5px;
+}

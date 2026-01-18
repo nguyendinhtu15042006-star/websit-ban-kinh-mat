@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EYESHOP - Đăng Nhập</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">EYESHOP</div>
+        <nav class="nav-menu">
+            <a href="../TrangChu/index.html">TRANG CHỦ</a> 
+            <a href="../ve-chung-toi/index.html">WEBSITE</a> 
+             <a href="../san-pham/index.html">SẢN PHẨM</a>
+        </nav>
+        <div class="user-actions">
+            <a href="../dang-nhap/index.html" class="icon active-icon">👤</a> 
+            <a href="../thanh-toan/index.html" class="icon">🛒</a>
+        </div>
+    </header>
+
+    <section class="login-section container">
+        <div class="login-branding">
+            <h1>EYESHOP</h1>
+            <p>Cửa hàng kính mắt trực tuyến chất lượng</p>
+        </div>
+
+        <div class="login-form-container">
+            <h2>Đăng nhập</h2>
+            <form id="login-form">
+                <div class="form-group"><input type="text" placeholder="Email hoặc Tên đăng nhập" required></div>
+                <div class="form-group"><input type="password" placeholder="Mật khẩu" required></div>
+                <a href="#" class="forgot-password">Bạn quên mật khẩu?</a>
+                <button type="submit" class="btn-login">Đăng nhập</button>
+            </form>
+            <div class="divider"><span>Hoặc</span></div>
+            <button class="btn-google">
+                <span class="google-icon">G</span> Đăng nhập bằng Google
+            </button>
+            <p class="register-link">
+                Bạn chưa có tài khoản? <a href="#">Đăng ký ngay!</a>
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-col">
+            <h4>Thông Tin Về Website</h4>
+            <a href="#">Về chúng tôi</a>
+            <a href="#">Eyeshop</a>
+        </div>
+        <div class="footer-col">
+            <h4>Liên hệ</h4>
+            <p>0386128197</p>
+        </div>
+        <div class="footer-col">
+            <h4>Khám Phá</h4>
+            <a href="#">Sản phẩm nổi bật</a>
+            <a href="#">Bộ sưu tập kính mới</a>
+        </div>
+        <div class="footer-col">
+            <h4>Theo Dõi</h4>
+            <div class="socials">
+                <span>Facebook</span>
+                <span>Twitter</span>
+            </div>
+        </div>
+    </footer>
+   <script>
+        
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+            
+            
+            event.preventDefault(); 
+            
+            
+            alert("Đăng nhập thành công!"); 
+            
+            
+            window.location.href = "../Trangchu/index.html"; 
+        });
+    </script>
+</body>
+</html>
+</body>
+</html>
